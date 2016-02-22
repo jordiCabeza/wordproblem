@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordProblem", "WordProblem\WordProblem.csproj", "{90EF9684-C24F-4DEB-8F6F-70E386E5D036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordProblem.Tests", "WordProblem.Tests\WordProblem.Tests.csproj", "{2F2F729D-1A44-4277-8D30-0DA7D2E7AB34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90EF9684-C24F-4DEB-8F6F-70E386E5D036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EF9684-C24F-4DEB-8F6F-70E386E5D036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EF9684-C24F-4DEB-8F6F-70E386E5D036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EF9684-C24F-4DEB-8F6F-70E386E5D036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2F729D-1A44-4277-8D30-0DA7D2E7AB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2F729D-1A44-4277-8D30-0DA7D2E7AB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2F729D-1A44-4277-8D30-0DA7D2E7AB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2F729D-1A44-4277-8D30-0DA7D2E7AB34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

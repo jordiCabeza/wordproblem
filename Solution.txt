@@ -1,0 +1,6 @@
+To solve the problem I am creating a tree structure containing all the possible solutions trying to no repeat words in each solution.
+When the code finds the first solution I'm just checking for the solutions that improve the current one, if not I am not continue with that specific part of tree.
+
+The solution is presented as a command line application that request for the dictionary file to be in  the following location C:\Windows\Temp\WordList\WordList.txt.
+The application ask for the start and stop word and then, after the calculation writes the solution through the console.
+
