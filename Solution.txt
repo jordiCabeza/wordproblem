@@ -1,5 +1,8 @@
 To solve the problem I am creating a tree structure containing all the possible solutions trying to no repeat words in each solution.
+
 When the code finds the first solution I'm just checking for the solutions that improve the current one, if not I am not continue with that specific part of tree.
+
+Also when adding a word in a possible solution I am checking if the word has been used in some other possible solution. If exist a solution with the same word in a less deep position I am not continuing with this solution.
 
 The solution is presented as a command line application that request for the dictionary file to be in  the following location C:\Windows\Temp\WordList\WordList.txt.
 The application ask for the start and stop word and then, after the calculation writes the solution through the console.

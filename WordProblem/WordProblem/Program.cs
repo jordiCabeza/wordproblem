@@ -16,7 +16,7 @@ namespace WordProblem
             var stop = Console.ReadLine();
 
             var wordSearch = new WordSearch();
-            Console.WriteLine("Num of words : {0}", words.Length);
+
             var solution = wordSearch.Resolve(words, start, stop);
 
             Console.WriteLine("\n\rSolution:");
